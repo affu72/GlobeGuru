@@ -1,14 +1,25 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Product,Pricing,HomePage} from './pages/index';
+import {
+  Products,
+  Pricing,
+  HomePage,
+  PageNotFound,
+  MaterialUI,
+} from "./pages/index";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<HomePage/>}/>
-        <Route path='product' element={<Product/>}/>
-        <Route path='pricing' element={<Pricing/>}/>
-      </Routes>
-    </BrowserRouter>
-  )
+    <>
+      {/* <h1>Hello Router!</h1> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="products" element={<Products />} />
+          <Route path="pricing" element={<Pricing />} />
+          <Route path="mui" element={<MaterialUI />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
 }
