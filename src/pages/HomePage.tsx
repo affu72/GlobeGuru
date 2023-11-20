@@ -1,7 +1,10 @@
-import React from 'react'
+import PageNav from "../components/PageNav";
 
 export default function HomePage() {
   return (
-    <h1>GlobGuru</h1>
-  )
+    <div>
+      <PageNav></PageNav>
+      <h1>GlobGuru</h1>
+    </div>
+  );
 }
