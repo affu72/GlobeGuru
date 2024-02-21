@@ -1,0 +1,10 @@
+.nav{
+  background-color: #FFF8D9;
+  padding: 24px 48px;
+}
+
+.nav ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}

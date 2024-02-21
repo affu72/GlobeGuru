@@ -5,6 +5,7 @@ import {
   HomePage,
   PageNotFound,
   MaterialUI,
+  AppLayout,
 } from "./pages/index";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="products" element={<Products />} />
           <Route path="pricing" element={<Pricing />} />
+          <Route path="app" element={<AppLayout />} />
           <Route path="mui" element={<MaterialUI />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
