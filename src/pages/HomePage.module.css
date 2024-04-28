@@ -1,0 +1,48 @@
+.homepage{
+  height: calc(100vh - 4rem);
+  background-image: url('./../assets/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+.heading{
+  color: #fff;
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading h1{
+  font-size: 64px;
+  margin-inline: 13px;
+}
+
+.heading p{
+  max-width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+  line-height: 125%;
+}
+
+.cta{
+  margin-top: 64px;
+  display: inline-block;
+}
+
+.cta button{
+  background: #fbfc43;
+  padding: 16px 24px;
+  color: #1b1c1f;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 100%;
+  letter-spacing: -0.18px;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}

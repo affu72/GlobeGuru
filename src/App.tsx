@@ -8,6 +8,8 @@ import {
   AppLayout,
 } from "./pages/index";
 
+import './App.css'
+
 export default function App() {
   return (
     <>

@@ -1,10 +1,17 @@
 .nav{
-  background-color: #FFF8D9;
   padding: 24px 48px;
 }
 
 .nav ul{
   display: flex;
   list-style-type: none;
-  justify-content: space-between;
+  gap: 64px;
+}
+
+.nav ul li *{
+  color: #fffdf8;
+}
+
+.nav :global(.active){
+  color: yellow;
 }
