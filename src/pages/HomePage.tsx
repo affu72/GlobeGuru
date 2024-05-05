@@ -6,6 +6,7 @@ export default function HomePage() {
     <div className={`${styles.homepage}`}>
       <PageNav />
       <div className={styles.hero}>
+        <div className={styles.contentWrapper}>
         <div className={`${styles.heading}`}>
           <h1>
             You travel the world.<br/><span>GlobeGuru</span> keeps track of your
@@ -19,6 +20,7 @@ export default function HomePage() {
         </div>
         <div className={styles.cta}>
           <button className="btn">start tracking now</button>
+        </div>
         </div>
       </div>
     </div>
