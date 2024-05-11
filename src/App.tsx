@@ -9,6 +9,7 @@ import {
 } from "./pages/index";
 
 import './App.css'
+import Login from './pages/Login';
 
 export default function App() {
   return (
@@ -20,7 +21,8 @@ export default function App() {
           <Route path="products" element={<Products />} />
           <Route path="pricing" element={<Pricing />} />
           <Route path="app" element={<AppLayout />} />
-          <Route path="mui" element={<MaterialUI />} />
+          {/* <Route path="mui" element={<MaterialUI />} /> */}
+          <Route path='login' element={<Login/>}/>
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
