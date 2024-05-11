@@ -17,7 +17,7 @@
 }
 
 .nav :global(.active){
-  color: yellow;
+  color: var(--color-dark-cyan);
 }
 
 .header{
