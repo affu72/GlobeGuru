@@ -1,0 +1,5 @@
+.pageWrapper{
+ background:  var(--color-dark-gray);
+ height: calc(100vh - 4rem);
+ color: #fff;
+}
