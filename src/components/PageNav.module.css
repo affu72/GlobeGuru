@@ -5,7 +5,8 @@
 .nav ul{
   display: flex;
   list-style-type: none;
-  gap: 64px;
+  gap: 56px;
+  text-transform: uppercase;
 }
 
 .nav a{
@@ -25,4 +26,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.cta{
+  display: inline-block;
+}
+
+.cta a{
+  background: var(--color-light-cyan);
+  padding: 5px 10px;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  border-radius: 6px;
+  color: #1c1b1f !important;
+}
+
+.cta a:hover{
+  background: var(--color-dark-cyan);
+  color: #fff !important;
 }
