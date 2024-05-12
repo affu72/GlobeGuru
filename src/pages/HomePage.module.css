@@ -47,7 +47,7 @@
 }
 
 .cta button{
-  background: #fbfc43;
+  background: var(--color-light-cyan);
   padding: 12px 24px;
   color: #1b1c1f;
   outline: none;
@@ -60,4 +60,11 @@
   cursor: pointer;
   height: 100%;
   width: 100%;
+  transition: all 0.3s ease-in-out;
+  border-radius: 6px;
+}
+
+.cta button:hover{
+  background: var(--color-dark-cyan);
+  color: #fff;
 }
