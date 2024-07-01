@@ -7,11 +7,13 @@ export default function Login() {
 
   const [email,setEmail] = useState<string>('');
   const [password,setPassword] = useState('');
-  const [loggedI,setLoggedIn] =  useState(false);
+  const [loggedIn,setLoggedIn] =  useState(false);
 
 
   function handleFormSubmission(e){
+    e.preventDefault();
     const formData = new FormData(e.target);
+    console.log(formData.get('email'))
     setLoggedIn(true);
   }
 

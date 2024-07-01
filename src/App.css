@@ -8,6 +8,7 @@
   --color-light-gray:#c5c6c7;
   --color-light-cyan:#66fcf1;
   --color-dark-cyan:#45a29e;
+  min-height: 100vh;
 }
 
 *, *::before, *::after {
